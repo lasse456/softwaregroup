@@ -37,7 +37,7 @@ const Hero = () => {
           exceed expectations and drive success.<br></br>
           <br></br> If you are seeking a technical product agency that not only
           provides development solutions but also offers comprehensive guidance
-          and a focus on societal impact, look no further than Tiny Rhino. Let's
+          and a focus on societal impact, look no further than Obtainal. Let's
           collaborate and create innovative solutions that shape the future.
         </p>
         <div className="flex gap-[20px]">

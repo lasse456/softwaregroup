@@ -75,7 +75,7 @@ export default function Navbar() {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <a href="/" className="text-[16px] font-[600]">
-              gazella group
+              Obtainal
             </a>
           </a>
         </div>
