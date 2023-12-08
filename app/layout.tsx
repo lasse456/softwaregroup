@@ -4,7 +4,7 @@ import "./globals.css";
 import { Footer, Navbar, StickyCta } from "@/components";
 
 export const metadata: Metadata = {
-  title: "Gazella Group - Software Development",
+  title: "Obtainal Group - Software Development",
   description: "We build innovative software",
 };
 
