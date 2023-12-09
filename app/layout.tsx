@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Footer, Navbar, StickyCta } from "@/components";
+import { Footer, Navbar, StickyCta, Nav } from "@/components";
 
 export const metadata: Metadata = {
-  title: "Obtainal Group - Software Development",
+  title: "Gazella Team  - Modern day software",
   description: "We build innovative software",
 };
 
@@ -16,8 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StickyCta />
-        <Navbar />
+        <Nav />
         {children}
         <Footer />
       </body>

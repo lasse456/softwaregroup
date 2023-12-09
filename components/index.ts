@@ -6,6 +6,7 @@ import StickyCta from "./StickyCta";
 import Link from "./Link";
 import BookingHero from "./BookingHero";
 import Customers from "./Customers";
+import Nav from "./Nav";
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   Link,
   BookingHero,
   Customers,
+  Nav,
 };

@@ -4,8 +4,8 @@ import { Button, Link } from ".";
 const Hero = () => {
   return (
     <section className="py-[100px]">
-      <div className="w-[50%] mx-auto max-w-[650px]">
-        <h1 className="text-[60px] leading-[65px] mb-[50px] font-[800]">
+      <div className="w-[560px] mx-auto max-w-[650px] md:w-[90%]">
+        <h1 className="text-[60px] leading-[60px] mb-[50px] font-[600] md:text-[50px] md:leading-[55px] md:w-[80%]">
           A modern day software group
         </h1>
         <p className="text-[16px] mb-[50px] font-[500]">

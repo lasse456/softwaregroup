@@ -14,11 +14,27 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        main: "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;",
+        mainshadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;",
       },
 
       colors: {
         main: "#282661",
+      },
+      screens: {
+        "2xl": { max: "1535px" },
+        // => @media (max-width: 1535px) { ... }
+
+        xl: { max: "1279px" },
+        // => @media (max-width: 1279px) { ... }
+
+        lg: { max: "1023px" },
+        // => @media (max-width: 1023px) { ... }
+
+        md: { max: "767px" },
+        // => @media (max-width: 767px) { ... }
+
+        sm: { max: "639px" },
+        // => @media (max-width: 639px) { ... }
       },
     },
   },
