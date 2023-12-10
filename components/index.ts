@@ -1,4 +1,4 @@
-import Hero from "./Hero";
+import Info from "./Info";
 import Footer from "./Footer";
 import Button from "./Button";
 import Navbar from "./Navbar";
@@ -7,9 +7,12 @@ import Link from "./Link";
 import BookingHero from "./BookingHero";
 import Customers from "./Customers";
 import Nav from "./Nav";
+import Hero from "./Hero";
+import CasesHero from "./CasesHero";
+import CasesSection from "./CasesSection";
 
 export {
-  Hero,
+  Info,
   Footer,
   Button,
   Navbar,
@@ -18,4 +21,7 @@ export {
   BookingHero,
   Customers,
   Nav,
+  Hero,
+  CasesHero,
+  CasesSection,
 };

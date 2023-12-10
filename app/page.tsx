@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { Hero, Customers } from "@/components";
+import { Info, Customers, Hero } from "@/components";
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <Info />
     </main>
   );
 }

@@ -8,11 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       boxShadow: {
         mainshadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;",
       },
@@ -36,6 +31,9 @@ const config: Config = {
         sm: { max: "639px" },
         // => @media (max-width: 639px) { ... }
       },
+    },
+    backgroundImage: {
+      herobg: "url('../public/gazellateam.png')",
     },
   },
   plugins: [],

@@ -1,11 +1,11 @@
 const Nav = () => {
   return (
-    <nav className="py-[15px] border-b-[1px]">
-      <div className="w-[98%] mx-auto flex justify-between">
+    <nav className="p-[15px]">
+      <div className=" flex justify-between">
         <a href="/">
-          <img className="w-[75px] cursor-pointer" src="gazellateam.png"></img>
+          <img className="w-[75px] cursor-pointer" src="logosvg.svg"></img>
         </a>
-        <img className="w-[30px]" src="menu-burger.png"></img>
+        <a className="font-[600]">+45 5069 5272</a>
       </div>
     </nav>
   );
