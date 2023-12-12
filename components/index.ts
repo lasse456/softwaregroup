@@ -4,12 +4,14 @@ import Button from "./Button";
 import Navbar from "./Navbar";
 import StickyCta from "./StickyCta";
 import Link from "./Link";
-import BookingHero from "./BookingHero";
-import Customers from "./Customers";
 import Nav from "./Nav";
 import Hero from "./Hero";
-import CasesHero from "./CasesHero";
-import CasesSection from "./CasesSection";
+import DefaultHero from "./DefaultHero";
+import Team from "./Team";
+import Features from "./Features";
+import Projects from "./Projects";
+import Cta from "./Cta";
+import Underconst from "./Underconst";
 
 export {
   Info,
@@ -18,10 +20,12 @@ export {
   Navbar,
   StickyCta,
   Link,
-  BookingHero,
-  Customers,
   Nav,
   Hero,
-  CasesHero,
-  CasesSection,
+  DefaultHero,
+  Team,
+  Features,
+  Projects,
+  Cta,
+  Underconst,
 };

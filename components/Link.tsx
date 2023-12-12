@@ -5,8 +5,11 @@ interface LinkProps {
 
 const Link = (props: LinkProps) => {
   return (
-    <a href={props.url} className="font-[600] text-[12px] py-[10px]">
-      {props.message}
+    <a href={props.url} className="font-[500] text-main w-[140px]">
+      <span className="hover:mr-[10px] border-main transition-all">
+        {props.message}
+      </span>{" "}
+      &#8594;
     </a>
   );
 };
